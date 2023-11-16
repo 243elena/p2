@@ -15,12 +15,12 @@
         }
         #initial-image {
             
-            max-width: 30%; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
+            max-width: 100%; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
         }
         #final-image {
             display: none;
             margin: 0 auto;
-            max-width: 30%; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
+            max-width: 100%; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
         }
     </style>
 </head>
@@ -43,7 +43,7 @@
             
             // Aquí puedes comparar la contraseña ingresada con la contraseña correcta
             // Si es correcta, muestra la segunda imagen
-            if (password === '1') {
+            if (password === '1-1=0') {
                 document.getElementById('password-form').style.display = 'none';
                 document.getElementById('final-image').style.display = 'block';
             } else {
